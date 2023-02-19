@@ -106,7 +106,7 @@ def display():
         inp = ''
         
         print(' Connecting with JIRA ----- Please Wait')
-        jira = TCEJIRA(jiraserver='https://towerce.atlassian.net/', auth=('email@gmail.com', 'api-hash'))
+        jira = TCEJIRA(jiraserver='https://name.atlassian.net/', auth=('something', 'something'))
         jobs = fileSelector()
         if type(jobs) == type(None):
             return 0
